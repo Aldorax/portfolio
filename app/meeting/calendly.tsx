@@ -7,7 +7,7 @@ const Calendly = () => {
     <div className="w-full ">
       <InlineWidget
         styles={{ height: "1000px" }}
-        url="https://calendly.com/zendstudio/meeting"
+        url="https://calendly.com/legadax/30min?preview_source=et_card"
       />
     </div>
   );

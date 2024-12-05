@@ -73,7 +73,7 @@ export default function Home() {
       >
         <Link href={"/"}>
           <Image
-            src={"/logo/logo.webp"}
+            src={"/logo/logo.png"}
             alt="Logo"
             width={1000}
             height={1000}
@@ -261,11 +261,11 @@ export default function Home() {
                 direction="left"
                 items={[
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/logo/logo.png",
                     name: "Logo",
                   },
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/logo/logo.png",
                     name: "Logo",
                   },
                 ]}
@@ -357,7 +357,7 @@ export default function Home() {
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/logo/logo.webp"}
+            src={"/logo/logo.png"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
@@ -398,7 +398,7 @@ export default function Home() {
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
-              src={"/logo/logo.webp"}
+              src={"/logo/logo.png"}
               width={10000}
               height={10000}
               className="w-40"
