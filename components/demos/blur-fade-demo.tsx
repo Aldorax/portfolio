@@ -5,30 +5,52 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Rubbish Brothers",
-    link: "https://www.rubbishbrothers.com",
+    imageUrl: "/images/1.jpg",
+    title: "StarkBridge",
+    link: "https://starkbridge.vercel.app",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Atlas Massage",
-    link: "https://www.atlasmassage.ca",
+    imageUrl: "/images/2.jpg",
+    title: "Etherea",
+    link: "https://main.d1yk7p3bc2fser.amplifyapp.com/",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Canadian Security Solutions",
-    link: "https://www.canadiansecuritysolutions.com",
+    imageUrl: "/images/3.jpg",
+    title: "Rannq Studios",
+    link: "https://rannq.com",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Flight 9",
-    link: "https://www.flight9.art",
+    imageUrl: "/images/4.jpg",
+    title: "BNSHub",
+    link: "https://main.dis8057g81z5j.amplifyapp.com",
   },
-
-
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/5.jpg",
+    title: "Esamale Farms",
+    link: "esamale-farms.site123.me",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/6.jpg",
+    title: "Enetworks Jobs",
+    link: "enetworksjobs-com-ng.vercel.app",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/7.jpg",
+    title: "Felojef Innovations",
+    link: "felojefinnovation.com.ng",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/8.jpg",
+    title: "Astora",
+    link: "astora-finance.vercel.app",
+  },
 ];
 
 export function BlurFadeDemo() {
@@ -48,9 +70,6 @@ export function BlurFadeDemo() {
                 width={10000}
                 className="
                 h-5/6 w-full object-cover rounded-lg"
-        
-              
-       
                 src={imageUrl}
                 alt={`Random stock image ${idx + 1}`}
               />
